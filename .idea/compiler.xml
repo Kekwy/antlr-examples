@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="calculator" />
+        <module name="rows" />
+        <module name="data" />
+        <module name="insert-serial-id" />
+        <module name="xml-lexer" />
         <module name="extract-interface-tool" />
       </profile>
     </annotationProcessing>

@@ -20,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         JavaLexer lexer = new JavaLexer(CharStreams.fromFileName(
-                "E:\\projects\\antlr-examples\\extract-interface-tool\\src\\main\\java\\com\\kekwy\\example\\antlr\\ext\\ExtractInterfaceListener.java"));
+                "extract-interface-tool/src/main/java/com/kekwy/example/antlr/ext/ExtractInterfaceListener.java"));
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         JavaParser parser = new JavaParser(tokens);
         ParseTree tree = parser.compilationUnit();      // 开始语法分析的过程

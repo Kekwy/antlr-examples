@@ -11,6 +11,10 @@
   <modules>
     <module>calculator</module>
     <module>extract-interface-tool</module>
+    <module>rows</module>
+    <module>data</module>
+    <module>xml-lexer</module>
+    <module>insert-serial-id</module>
   </modules>
 
   <properties>
