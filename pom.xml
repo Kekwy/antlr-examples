@@ -16,6 +16,7 @@
     <module>xml-lexer</module>
     <module>insert-serial-id</module>
     <module>csv-parser</module>
+    <module>json-parser</module>
   </modules>
 
   <properties>

@@ -10,6 +10,7 @@
         <module name="data" />
         <module name="insert-serial-id" />
         <module name="csv-parser" />
+        <module name="json-parser" />
         <module name="xml-lexer" />
         <module name="rows" />
         <module name="extract-interface-tool" />
